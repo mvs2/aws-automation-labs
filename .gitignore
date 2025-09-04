@@ -1,2 +1,34 @@
+# Python cache / build artifacts
+__pycache__/
+*.py[oc]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+wheels/
+
+# Virtual environments (if any created locally)
+.venv/
+.env/
+
+# IDE / Editor
 .idea/
 *.iml
+.vscode/
+
+# Logs and reports
+logs/
+reports/
+
+# Data (only ignore runtime artifacts, not fixtures)
+data/downloads/
+data/uploads/
+
+# System / OS junk
+.DS_Store
+Thumbs.db
+
+# uv
+.uv/
