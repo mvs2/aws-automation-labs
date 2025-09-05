@@ -1,3 +1,5 @@
 # change below to preferred region and your bucket name.
 region: us-west-2
-bucket: marcus-automation-lab-XXXXXX
+bucket: marcus-automation-lab-202509
+
+

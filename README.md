@@ -10,9 +10,8 @@ Learning project for practicing Python + AWS automation using the Free Tier.
   - [x] Upload
   - [x] Verify via `head_object`
   - [x] Download + size check
-  - [ ] Retries
-  - [ ] Progress bars
-  - [ ] Checksum validation
+  - [x] Retries
+ 
   
 - [ ] **EC2 Inventory**
   - [ ] List EC2 instances (ID, type, state, region, tags)
