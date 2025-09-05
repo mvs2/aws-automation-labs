@@ -1,17 +1,23 @@
 # AWS Automation Labs
 
+![Learning in Public](https://img.shields.io/badge/Learning%20in%20Public-🚀-orange)
+
 Learning project for practicing Python + AWS automation using the Free Tier.
 
 ## Phase 1 — Warm-Up (Automation Basics → AWS Glue)
 
-- [ ] **S3 Uploader/Downloader**
-  - Upload, list, and download files from S3
-  - Add retries, progress bars, and checksum validation
-
+- [x] **S3 Uploader/Downloader**
+  - [x] Upload
+  - [x] Verify via `head_object`
+  - [x] Download + size check
+  - [ ] Retries
+  - [ ] Progress bars
+  - [ ] Checksum validation
+  
 - [ ] **EC2 Inventory**
-  - List EC2 instances (ID, type, state, region, tags)
-  - Export to JSON/CSV
-  - Flag “stale” instances and store report in S3
+  - [ ] List EC2 instances (ID, type, state, region, tags)
+  - [ ] Export to JSON/CSV
+  - [ ] Flag “stale” instances and store report in S3
 
 ## Planned Phases
 
@@ -29,3 +35,7 @@ Learning project for practicing Python + AWS automation using the Free Tier.
 ---
 
 *This repo is part of my AWS Cloud + Python learning journey.*
+## Quickstart
+1. Clone repo
+2. Copy `config/default.yaml.example` → `config/default.yaml` and set your bucket + region
+3. Run: `python -m aws_automation_labs.s3io`  
